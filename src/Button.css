@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+  .button {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 100px;
+    background-color: #06E7ED;
+    color: black;
+    border: none;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: 20px;
+    border: 1px solid #04abb1;
+  }
+ 
+  .span__text{
+   display: flex;
+   position: relative;
+  }
+
+  .Button__container1{
+    display: flex;
+    position: relative;
+
+
+  }
+  
+  .container {
+    padding: 20px;
+    /* border: 1px solid black; */
+    background: linear-gradient(to bottom, #ededed, #ece9e9); /* Adjust colors as needed */
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
+  .circle__button {
+    width: 50px;
+    height: 50px;
+    background-color: #112D44;
+    /* color: white; */
+    border-radius: 50%;
+    border: none;
+   
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px; /* Add padding around the circle */
+    box-sizing: border-box; /* Include padding in the width and height */
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+  }
+
+
+  .vector__image{
+    width: 40px;
+    height: 40px;
+  }
+
+  .button__Container{
+    display: flex;
+
+    right: -10px;
+  }
+
+  .Second__button{
+    display: flex;
+    padding: 16px 50px ;
+    background-color: #06E7ED;
+    color: black;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 20px;
+    font-weight: 300;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 30px;
+    border: 0.01px solid #112D44 ;
+
+    /* height: 60px; */
+  
+  }
+  .inner__circle{
+    display: flex;
+    position: relative;
+    right: -60px;
+    top:16px;
+  }
