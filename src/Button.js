@@ -2,6 +2,7 @@
 import React from 'react';
 import './Button.css';
 import CircleButton from './circleButton';
+import SmallCircleButton from './smallCircle';
 
 const Button = () => {
   const ButtonhandleClick = (buttonLabel) => {
@@ -18,21 +19,21 @@ const Button = () => {
   return (
     <div className='container'>
 
-      
-      <button onClick={() => ButtonhandleClick("ClickToPayButton")} className="button">
-     CLICK TO PAY
+   
+      <div className='inner_Container'>
+      <button onClick={() => ButtonhandleClick("ClickToPayButton")} className="button ">
+      <SmallCircleButton /> CLICK TO PAY   
       </button>
-  
-    
-
      <button onClick={() => ButtonhandleClick("ClickToPay|$$$")} className="button">
 
-    CLICK TO PAY|$$$
+     <SmallCircleButton /> CLICK TO PAY|$$$    
       </button>
+  </div>
    
+      <div className='inner__Container1'>
       <div className='button__Container'>
       <CircleButton />
-      <button onClick={() => ButtonhandleClick("SwipeToPayButton")} className="Second__button">
+      <button onClick={() => ButtonhandleClick("SwipeToPayButton")} className="Second__button " id='btn_space'>
         SWIPE TO PAY
       </button>
      </div>
@@ -42,6 +43,7 @@ const Button = () => {
         SWIPE TO PAY|$$$
       </button>
       </div>
+    </div>
     </div>
   );
 };

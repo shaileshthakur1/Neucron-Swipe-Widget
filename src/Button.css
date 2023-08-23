@@ -36,6 +36,7 @@
     background: linear-gradient(to bottom, #ededed, #ece9e9); /* Adjust colors as needed */
     margin: 20px;
     display: flex;
+    flex-direction:row ;
     align-items: center;
     justify-content: center;
   }
@@ -86,7 +87,7 @@
     font-weight: 300;
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
     border-radius: 30px;
-    border: 0.01px solid #112D44 ;
+    border: 0.01px solid #04abb1 ;
 
     /* height: 60px; */
   
@@ -97,3 +98,39 @@
     right: -60px;
     top:16px;
   }
+  .Inner__circle__button
+{
+  width: 10px;
+  height: 10px;
+  background-color: #112D44;
+  /* color: white; */
+  border-radius: 50%;
+  border: none;
+ margin-right: 10px;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px; /* Add padding around the circle */
+  box-sizing: border-box; /* Include padding in the width and height */
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+.vector__small__image{
+  width: 10px;
+  height: 10px;
+}
+.inner_Container{
+  display: flex;
+  flex-direction: column;
+}
+
+.inner__Container1{
+  display: flex;
+  flex-direction: column;
+}
+
+#btn_space{
+  padding: 16px 66px;
+}
